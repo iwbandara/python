@@ -1,0 +1,26 @@
+# Learning Python Programming
+
+# Printing something
+
+    print("Hello World") # here print() is an inbuilt function
+
+# Use of variables
+
+    age = 43 # this assign the value 43 to the variable named age
+    print(age) # will display 43
+
+# Use of multiple variables with values
+
+    Method 01:    
+
+    sarah, bob, mike = 16, 21, 17 # assigns different values to different variables
+
+    print(mike) # will output the value 17
+
+    Method 02:
+
+    sarah = bob = mike = 17 # assign same value to different variables
+
+    print(bob) # will display the value 17
+
+    print(sarah) # will display the value 17

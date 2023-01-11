@@ -24,3 +24,18 @@
     print(bob) # will display the value 17
 
     print(sarah) # will display the value 17
+
+# Use of arithmetic operators
+
+    val1 = 15
+    val2 = 20
+
+    val1 + val2 # this will output the value 35. Where addition is performed.
+
+    val1 - val2 # this will give us -5 as the output. Subtraction is done.
+
+    val1 * val2 # this will give us 300 as the output. Multiplication is done.
+
+    val1 / val2 # this will give us 0, normal division is performed.
+
+    val1 % val2 # this will give us 15, Modulus (remainder value) is done.

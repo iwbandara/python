@@ -1,0 +1,25 @@
+# Working with Strings in Python
+
+    firstName = "Indika"
+    
+    lastName = "Bandara"
+
+    firstName + lastName # Ouputs 'IndikaBandara' # Addition operator
+
+    firstName + " " + lastName # Ouputs 'Indika Bandara' # Addition operator
+
+    var1 = "Hi"
+
+    var1 * 10 # Outputs 'HiHiHiHiHiHiHiHiHiHiHiHiHiHi' # Multiplication operator
+
+    sentence1 = "Sri Lanka is an Island"
+
+    sentence1[0] # Outputs letter 'S'
+    
+    sentence1[0:10] # Outputs 'Sri Lanka '
+
+    sentence1[:3] # Outputs 'Sri'
+
+    sentence1[4:] # Outputs 'Lanka is an island'
+
+    sentence1[:-4] # outputs 'Sri Lanka is an is'

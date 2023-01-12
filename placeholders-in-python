@@ -1,0 +1,15 @@
+# Using place holders in Python
+
+    name="Indika"
+
+    Option 01:
+
+    sent = "%s is a man"
+
+    sent%name # Outputs "Indika is a man"
+
+    Option 02:
+
+    sent = "%s %s is a man"
+
+    sent%("Saman", "Kumara") # Outputs "Saman Kumara is a man"

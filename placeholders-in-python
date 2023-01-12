@@ -1,5 +1,7 @@
 # Using place holders in Python
 
+# The '%' is used to indicate the placeholder
+
     name="Indika"
 
     Option 01:

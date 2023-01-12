@@ -1,0 +1,41 @@
+# Introduction to Lists in Python
+
+# A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ] .
+
+    shopList = ["Oranges", "Apples", "Bananas", "Cheese"] # defining the List
+
+    shopList = ["Oranges", "Apples", "Bananas", "Cheese"]
+                    0           1       2           3       # Index values
+                    1           2       3           4       # Element number
+
+# To extract elements from a List, you need to use the index values mentioned inside [].
+
+    shopList[0] # will output 'Oranges', which has the index value of 0.
+
+    shopList[3] # will output 'Cheese', which has the index value of 3.
+
+    shopList[0:2] # will output '['Oranges', 'Apples']'
+
+    shopList[2:] # will output "['Bananas', 'Cheese']"
+
+    shopList[-2:] # will output "['Bananas', 'Cheese']"
+
+    shopList[:-2] # will output "['Oranges', 'Apples']"
+
+# Adding new items to a List in Python
+
+# Uses 'append' function
+
+    shopList.append("Blueberries") # item 'Blueberries will be added to the end of the list.
+
+# How to replace an existing item with a new value
+
+    shopList[0] = "Cherry" # replace 'Oranges with Cherry'
+
+# How to remove an item from the list
+
+# Use 'del' keyword with item index value to delete or remove an item from a list
+
+    del shopList[1] # removes the item 'Apples' from the list
+
+    del shopList[1:] # removes the items 'Apples', 'Bananas', & 'Cheese' from the list

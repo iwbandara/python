@@ -39,3 +39,29 @@
     del shopList[1] # removes the item 'Apples' from the list
 
     del shopList[1:] # removes the items 'Apples', 'Bananas', & 'Cheese' from the list
+
+# How to calculate the amount of elements in a list
+
+    len(shopList) # this will return the amount of elements in the list
+
+# Use of arithmetic operators with a List
+
+    + operator:
+        
+        shopList1 + shopList2 # creates a list combining the two lists provided
+
+    * operator:
+
+        shopList * 2 # Multiply 'shopList' list twice
+
+# How to find the highest value (Maximum) in a list
+
+    max(list1) # this returns the maximum value from the list called 'list1'
+
+# How to find the lowest value (Minumum) in a list
+
+    min(list1) # this returns the minimum value from the list called 'list1'
+    
+# How to sort a list
+
+    list1.sort() # this will sort the values in the list in ascending order

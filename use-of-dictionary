@@ -1,0 +1,13 @@
+# Use of dictionary in Python
+
+# A dictionay contains key:value pair. To access the values we can use the key.
+
+    students = { "Rachel": 12, "Bob":17, "Emily":15 }
+
+# How to display a specific value
+
+    students["Rachel"] # this will output value 12
+
+# How to update a value in a dictionary
+
+    students["Emily"] = 16 # Update the value 15 into 16

@@ -1,0 +1,15 @@
+# Use of tuples in Python
+
+# Just another data structure which is unmutables (data cannot be added or changed)
+
+# Most of the other functions done with a list can be done with a tuple except changing.
+
+    tuple1 = ("oranges", "bananas", "cherries")
+
+    tuple1[2] # outputs "cherries"
+
+    tuple1 * 2 # will output ('oranges', 'bananas', 'cherries', 'oranges', 'bananas', 'cherries')
+
+    len(tuple1) # will output the count of the items in the tuple, which is 3.
+
+    del tuple1 # will delete the entire tuple

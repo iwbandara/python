@@ -2,7 +2,7 @@
 
 print("=================================")
 print()
-age=int(input("Please enter your age : "))
+age=int(input("Please enter your age : ")) # Accept input & convert it to an Integer value
 print()
 print("=================================")
 

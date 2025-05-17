@@ -23,5 +23,9 @@ def is_even(n): # Returns a boolean value as an output
         return True
     else:
         return False
+
+# The above code can be shorten as follows:
+#   return True if n % 2 == 0 else False OR
+#   return n % 2 == 0
     
 main()

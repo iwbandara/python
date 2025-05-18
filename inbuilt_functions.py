@@ -1,6 +1,7 @@
 # Author: Indika W Bandara
 # Date: 2022-11-09
-# Version: 1.0
+# Modified: 2025-05-19
+# Version: 1.1
 
 # Use of inbuilt functions
 
@@ -39,3 +40,11 @@ if name.islower():
     print("Your name is in SIMPLE letters. Thank you.")
 else:
     print("Your name is not in SIMPLE letters. Try again next time.")
+
+# ================================================================
+
+# Use of title() function to convert the first letter of every word in a sentence or paragraph
+
+name=input("Enter your name : ")
+
+print(name.title())

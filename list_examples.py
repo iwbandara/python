@@ -5,3 +5,5 @@ for name in names:
         continue # skips the value
     new_list.append(name.title()) # adds the name which is less than 6 to the new list after changing the first letter to Uppercase
 print(new_list) # prints the newly created list
+new_list.pop() # removes the last item from the list
+new_list.remove('Saman') # removes the mentioned item from the list
